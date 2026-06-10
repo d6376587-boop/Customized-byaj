@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AJ Customized Kicks</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0d0d0d;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#000;
+    border-bottom:2px solid #ff4500;
+}
+
+.logo{
+    font-size:2rem;
+    font-weight:bold;
+    color:#ff4500;
+}
+
+.hero{
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+    url('https://images.unsplash.com/photo-1519861531473-9200262188bf');
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.3rem;
+    color:#ccc;
+    max-width:700px;
+}
+
+.btn{
+    margin-top:25px;
+    padding:15px 35px;
+    background:#ff4500;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+}
+
+.products{
+    padding:60px 8%;
+}
+
+.products h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2.5rem;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1a1a1a;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.price{
+    color:#ff4500;
+    font-size:1.4rem;
+    margin-top:10px;
+}
+
+.payment{
+    text-align:center;
+    padding:60px 20px;
+    background:#111;
+}
+
+.cashapp{
+    font-size:2rem;
+    color:#00d64f;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#000;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">AJ CUSTOMIZED KICKS</div>
+</nav>
+
+<section class="hero">
+    <h1>🏀 Anime Basketball Shoes</h1>
+    <p>Custom Ja Morant 3 designs inspired by your favorite anime characters.</p>
+    <a href="#shop" class="btn">Shop Now</a>
+</section>
+
+<section class="products" id="shop">
+    <h2>Featured Customs</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="YOUR_ITACHI_IMAGE.jpg">
+            <div class="card-content">
+                <h3>🔥 Itachi Ja Morant 3</h3>
+                <p>Akatsuki-inspired custom design.</p>
+                <div class="price">$180</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="YOUR_GOJO_IMAGE.jpg">
+            <div class="card-content">
+                <h3>⚡ Gojo Ja Morant 3</h3>
+                <p>Jujutsu Kaisen inspired colorway.</p>
+                <div class="price">$180</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="YOUR_NARUTO_IMAGE.jpg">
+            <div class="card-content">
+                <h3>🍥 Naruto Ja Morant 3</h3>
+                <p>Hidden Leaf inspired custom.</p>
+                <div class="price">$180</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="YOUR_LUFFY_IMAGE.jpg">
+            <div class="card-content">
+                <h3>☠️ Luffy Ja Morant 3</h3>
+                <p>One Piece inspired custom.</p>
+                <div class="price">$180</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="payment">
+    <h2>Order Now</h2>
+    <p>Send a message with your size and design request.</p>
+
+    <div class="cashapp">$alterts</div>
+
+    <p>Custom orders available.</p>
+</section>
+
+<footer>
+    © 2026 AJ Customized Kicks
+</footer>
+
+</body>
+</html>
